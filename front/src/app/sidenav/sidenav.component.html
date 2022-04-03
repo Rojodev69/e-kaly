@@ -1,11 +1,14 @@
 <mat-nav-list>
     <div class="logo py-4">
-        <img class="kaly" src="../../assets/e-kaly.png" alt="e-kaly"/>
+        <img class="kaly" src="../../assets/e-kaly.png" alt="e-kaly logo"/>
     </div>
     <mat-divider></mat-divider>
-    <h2 matSubheader class="mt-2" >Back-office</h2>
+    <h2 matSubheader class="mt-2 matSubheader" >APPLICATION</h2>
+    <a mat-list-item [routerLink]="['/home']" routerLinkActive="router-link-active" >
+        <mat-icon>home</mat-icon> Home
+    </a>
     <a mat-list-item [routerLink]="['/dashboard']" routerLinkActive="router-link-active" >
-        <mat-icon>dashboard</mat-icon> dashboard
+        <mat-icon>dashboard</mat-icon> Dashboard
     </a>
     <a mat-list-item>
         <mat-icon>edit</mat-icon> Link 1

@@ -10,3 +10,45 @@ img{
     vertical-align: center;
     margin-right: 1rem;
 }
+
+.mat-divider{
+    border-top-width: 2px;
+    border-color: white;
+}
+
+.mat-list-item{
+    color: rgb(197, 197, 197) !important;
+    font-size: 0,8 rem;
+    height: 44px !important;
+    margin-bottom: 4px !important;
+    border-radius: 5px;
+    margin: 0 8px;
+    ::ng-deep{
+        .mat-list-item-content{
+            border-radius: 5px;
+            margin: 0 8px;
+            &:hover{
+                background-color: #1da1af !important;
+            }
+        }
+    }
+}
+
+.router-link-active{
+    color: rgb(197, 197, 197) !important;
+    ::ng-deep{
+        .mat-list-item-content{
+            background:#1da1af!important;
+            &:hover{
+                background-color: #1da1af !important;
+            }
+        }
+    }
+}
+.matSubheader{
+    color: #42def0;
+    font-size: 0.8 rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+
+}

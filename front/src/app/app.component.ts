@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'front';
+  SideBarOpen = true;
+
+  ngOnInit() {}
+
+  SideBarToggler(){
+    this.SideBarOpen = !this.SideBarOpen;
+  }
+
+
 }
